@@ -1,0 +1,88 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f0ed;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+.hero {
+    height: 90vh;
+    background: url(../img/woman-portrait-skincare-routine.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 40px;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.navbar {
+    background-color: #f1f0ed;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.titulo-novedad {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.imagen-hover-wrapper {
+    overflow: hidden;
+}
+
+.imagen-hover,
+.texto-hover {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.imagen-hover-wrapper:hover .imagen-hover,
+.imagen-hover-wrapper:hover .texto-hover {
+    opacity: 1;
+}
+
+.imagen-hover-wrapper:hover .imagen-normal,
+.imagen-hover-wrapper:hover .texto-normal {
+    opacity: 0;
+}
+
+.imagen-ajustada {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.object-cover {
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+}
+
+.parrafo-valores {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
