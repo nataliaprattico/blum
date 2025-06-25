@@ -86,3 +86,7 @@ h2 {
     line-height: 1.6;
     margin-bottom: 0;
 }
+.card-img-top {
+        height: 600px;
+        object-fit: cover;
+    }
