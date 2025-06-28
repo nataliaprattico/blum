@@ -6,23 +6,21 @@ body {
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
+    font-weight: 350;
+
 }
 
 footer {
     background-color: darkgrey;
 }
 
-.hero {
-    height: 90vh;
-    background: url(../img/woman-portrait-skincare-routine.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 40px;
-    color: white;
-    border-radius: 0.5rem;
+.hero-imagen {
+    height: 600px;
+}
+
+.hero-imagen img {
+    height: 100%;
+    object-fit: cover;
 }
 
 .navbar {
@@ -31,6 +29,7 @@ footer {
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.5px;
+    height: 55px;
 }
 
 .navbar-brand {
@@ -40,8 +39,8 @@ footer {
 
 .titulo-novedad {
     font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 2.2rem;
 }
 
 .imagen-hover-wrapper {
@@ -77,16 +76,78 @@ footer {
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 2.2rem;
+    color: #4a4a4a;
+    font-size: 2.5rem;
+    font-weight: 350;
+
 }
 
 .parrafo-valores {
+    font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     color: #4a4a4a;
     line-height: 1.6;
     margin-bottom: 0;
 }
+
 .card-img-top {
-        height: 600px;
-        object-fit: cover;
-    }
+    height: 600px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.card-sub-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.parrafo-equipo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.carousel-inner,
+.carousel-inner img {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.carousel-caption h5 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 600px;
+    object-fit: cover;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll_section {
+    scroll-margin-top: 60px;
+}
