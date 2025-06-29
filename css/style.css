@@ -91,7 +91,6 @@ h2 {
 }
 
 .card-img-top {
-    height: 600px;
     object-fit: cover;
 }
 
@@ -135,7 +134,6 @@ h2 {
 }
 
 .carousel-item {
-    height: 600px;
     object-fit: cover;
 }
 
